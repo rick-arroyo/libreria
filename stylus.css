@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.titulo1 {
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    font-size: x-large;
+    text-transform: capitalize;
+    color: brown;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(222, 167, 140);
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Edu AU VIC WA NT Pre';
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    
+}
+
+.iconos {
+    
+    display: flex;
+    right: 20px;
+    gap: 25px;
+    margin-right: 200px;
+    float: right;
+}
+
+.buscar {
+    text-align: right;
+}
+
+.titulo2 {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    color: white;
+    background-image: url(imagenes/1369_2000.jpg);
+    padding: 80px;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+
+aside {
+    text-align: center;   
+    padding: 10px;
+}
+
+h2 {
+    color: rgb(128, 0, 60);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+h4 {
+    color: rgb(128, 0, 60);
+
+}
+
+.Rec1 {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.Rec1 img{
+    transform: scale(1);
+    transition-duration: 5s;
+}
+.Rec1 img:hover{
+    transform: scale(1.25);
+}
+
+.libros1 {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    overflow-x: scroll;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    gap: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+.letras {
+    position:relative;
+    bottom: 3;
+    vertical-align:middle;
+    text-align: center;
+}
+
+.tri {
+    flex: 1;
+    text-align: left;
+
+}
+
+
+.pie {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.colorPie {
+    background-color:  rgb(222, 167, 140);
+    color: white;
+}
+
+form {
+    text-align: center;
+    align-items: center;
+}
+
+.iconos3 {
+    display: flex;
+    text-align: center
+    
+
+}
+.acomodo{
+    gap: 50px;
+}
